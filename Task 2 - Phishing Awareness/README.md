@@ -6,7 +6,7 @@
 An interactive, enterprise-grade dark-themed web interface designed to educate users on detecting, deflecting, and reporting modern social engineering vectors. The platform transforms traditional static training content into an engaging, responsive experience featuring a custom evaluation engine.
 
 ### 🚀 Live Demonstration
-* **Live Website Link:** [Insert your GitHub Pages URL here]
+* **Live Website Link:** https://oyeladesml.github.io/codealpha_tasks/
 
 ### 🛠️ Key Features Implemented
 * **Comprehensive Vector Analysis:** Dedicated modules covering modern attack surfaces including Smishing (SMS), Vishing (Voice), and Quishing (QR Codes).
