@@ -33,6 +33,7 @@ To launch Snort 3 live and bind it to the primary interface to process incoming 
 ```text 
 sudo snort  -R /etc/snort/rules/local.rules -i eth0 -A alert_fast
 ```
-🧠 Key Concepts Learned
+# 🧠 Key Concepts Learned
 NIDS Engine Architecture: Gained hands-on experience dealing with the structural configuration changes between legacy engines and Snort rule linking.
+
 Traffic Baseline Analysis: Developed practical skills in observing how deep packet inspection identifies and logs signatures to maintain network visibility.
