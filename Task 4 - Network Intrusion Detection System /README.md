@@ -26,9 +26,10 @@ snort -V
 `alert icmp any any -> any any (msg:"ICMP Packet Detected via Snort"; sid:1000001; rev:1;)'
 
 # 🚀 Execution & Verification Command
-# To launch Snort 3 live and bind it to the primary interface to process incoming packets, run:
+**To launch Snort 3 live and bind it to the primary interface to process incoming packets, run: **
+```text 
 sudo snort  -R /etc/snort/rules/local.rules -i eth0 -A alert_fast
-
+```
 🧠 Key Concepts Learned
 NIDS Engine Architecture: Gained hands-on experience dealing with the structural configuration changes between legacy engines and modern Snort 3 rule linking.
 Traffic Baseline Analysis: Developed practical skills in observing how deep packet inspection identifies and logs signatures to maintain network visibility.
