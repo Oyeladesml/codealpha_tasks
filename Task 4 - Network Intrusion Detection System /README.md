@@ -22,12 +22,11 @@ sudo apt install snort snort-rules-default -y
 snort -V
 
 ### 📝 Custom Detection Rule Architecture
-### The signature implemented to track protocol anomalies utilizes the following structure inside `/etc/snort/rules/local.rules`:
+# The signature implemented to track protocol anomalies utilizes the following structure inside `/etc/snort/rules/local.rules`:
 `alert icmp any any -> any any (msg:"ICMP Packet Detected via Snort"; sid:1000001; rev:1;)'
 
-
- ### 🚀 Execution & Verification Command
-To launch Snort 3 live and bind it to the primary interface to process incoming packets, run:
+# 🚀 Execution & Verification Command
+# To launch Snort 3 live and bind it to the primary interface to process incoming packets, run:
 sudo snort  -R /etc/snort/rules/local.rules -i eth0 -A alert_fast
 
 🧠 Key Concepts Learned
